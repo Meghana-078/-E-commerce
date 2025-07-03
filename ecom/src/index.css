@@ -1,0 +1,46 @@
+.main, .main1 {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  background-color: #efa6cf;
+  border-radius: 25px;
+  box-shadow: 5px 5px gray;
+  padding: 20px;
+}
+
+.adminname, .adminemail, .adminpassword, .adminphoto {
+  margin-bottom: 20px;
+}
+
+.adminname label,
+.adminemail label,
+.adminpassword label,
+.adminphoto label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.loginpage,
+.createacc {
+  text-align: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: #474746;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
